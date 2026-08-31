@@ -2,7 +2,7 @@
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
 
-const api = axios.create({ baseURL: 'http://localhost:5000/api/vaults' });
+const api = axios.create({ baseURL: 'https://shadowvault-bwm9.onrender.com/api/vaults' });
 
 // Navigation tabs: 'create' | 'access' | 'telemetry'
 const activeTab = ref('create');
