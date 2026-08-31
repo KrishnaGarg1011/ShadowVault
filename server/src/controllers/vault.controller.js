@@ -1,6 +1,6 @@
 const pool = require('../config/db');
 const { v4: uuidv4 } = require('uuid');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 // Create a new secure drop
 exports.createVault = async (req, res, next) => {
